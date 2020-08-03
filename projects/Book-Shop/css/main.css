@@ -1,0 +1,89 @@
+
+.main-table{
+    display: flex;
+    justify-content: center;
+}
+table{
+    margin-top: 10vh;
+    border-style: inset;
+}
+.title-call{
+    width: 30vw;
+}
+.id-call{
+    width: 4vw;
+}
+body{
+    background-color: bisque;
+}
+.price-call{
+    width: 10vw;
+}
+.action-call{
+    width: 30vw;
+}
+td{
+    text-align: center;
+    border-style: outset;
+    height: 15vh;
+}
+th{
+    font-size: x-large;
+}
+.read-button{
+    background-color: rgba(0, 0, 255, 0.534);
+}
+.update-button{
+    background-color: rgba(255, 127, 80, 0.753);
+}
+.delete-button{
+    background-color: rgba(255, 0, 0, 0.534);
+}
+.action-btn{
+    transition-duration: 0.2s;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover {
+  background-color: bisque; /* Green */
+  color: rgb(0, 0, 0);
+}
+table{
+    background-color: rgba(255, 160, 122, 0.37);
+}
+.header{
+    position: relative;
+    left: 35vw;
+    width: 25vw;
+}
+.new-book{
+    position: relative;
+    left: 42vw;
+    color: blue;
+    cursor: pointer;
+    width: 15vw;
+}
+img{
+    width: 30vw;
+    position: relative;
+}
+.hide{
+    display: none;
+}
+.read-section{
+    position: absolute;
+    top: 20vh;
+    left: 30vw;
+    background-color: chocolate;
+    width: 40vw;
+    height: 70vh;
+    border-radius: 5vw;
+    border-style: double;
+    text-align: center;
+}
+.rate-control{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+}

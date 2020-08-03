@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint1 - minesweeper</title>
+</head>
+<body onload="initGame()">
+    <div class="tool-bar">
+        <h1>Mine Sweeper</h1>
+    <h2 class="time-counter"></h2>
+ 
+    <div class="hurts"></div> 
+
+    <button class="restart-game example_c" onclick="restartGame()">Restart</button>
+    <button class="game-level-beginner example_c" onclick="newTable(0)">Beginner</button>
+    <button class="game-level-medium example_c" onclick="newTable(1)">Medium</button>
+    <button class="game-level-expert example_c" onclick="newTable(2)">Expert</button>
+
+    <h2 class="time-counter power-header">Hints</h2>
+    <div class="hints">
+      <img src="image/light-on.PNG" class="hint-on hint" onclick="hintClicked(this)">
+      <img src="image/light-on.PNG" class="hint-on hint" onclick="hintClicked(this)">
+      <img src="image/light-on.PNG" class="hint-on hint" hint onclick="hintClicked(this)">
+    </div>
+    
+
+    </div>  
+    <div>
+        <table class="board"></table>
+    </div>
+    <div class="end-game"></div>
+    
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
